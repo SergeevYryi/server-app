@@ -2,6 +2,7 @@ package com.client.security.details;
 
 import com.client.models.User;
 import com.client.repositories.UsersRepository;
+import com.client.security.details.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
